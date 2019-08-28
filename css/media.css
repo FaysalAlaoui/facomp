@@ -1,0 +1,43 @@
+/******************************* Start Media Query *******************************/
+
+/* MPhones and Tablets */
+@media(max-width: 767px)
+{
+	.navbar-inverse .navbar-nav > li > a{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.navbar-fixed-top .navbar-collapse, 
+	.navbar-fixed-bottom .navbar-collapse{
+		max-height: none;
+	}
+	.subscribe .form-control{
+		margin: 10px auto;
+		width: 230px;
+	}
+	footer .social li{
+		margin-bottom: 10px;
+	}
+	footer .our_projects{
+		text-align: center;
+	}
+}
+
+/* Small Screens */
+@media(min-width: 767px) and(max-width: 991px)
+{
+	footer .social li{
+		margin-bottom: 10px;
+	}
+}
+
+/* Medium Screens */
+@media(min-width: 992px) and(max-width: 1199px)
+{
+	
+}
+/* Large Screens */
+@media(min-width: 1200px)
+{
+	
+}
